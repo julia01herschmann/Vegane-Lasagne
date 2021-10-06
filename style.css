@@ -1,0 +1,24 @@
+
+                body {background-color: rgba(155, 121, 128, 0.904);}
+                h1 {color: white;text-align: center;}
+                h2 {color: white;text-align:left}
+                h3 {color: white;text-align:left}
+                p {color: white;text-align:left}
+                li {color: white;text-align:left}
+                table {color:white;text;}
+                header {color: white;text}
+                h1 {font-family: Helvetica;font-size: 30px;}
+                h2 {font-family: Helvetica;font-size: 25px;}
+                h3 {font-family: Helvetica;font-size: 18px;}
+                li {font-family: Helvetica;font-size: 15px;}
+                table {font-family: Helvetica;font-size: 20px;}
+                p {font-family: Helvetica;font-size: 15px;}
+                header {font-family: Helvetica;font-size: 13px;}
+
+a{
+    color:white;
+
+}
+.julia a {background-color: white;}
+
+header a {background-color; text-decoration: none;}
