@@ -1,24 +1,93 @@
 
-                body {background-color: rgba(155, 121, 128, 0.904);}
-                h1 {color: white;text-align: center;}
-                h2 {color: white;text-align:left}
-                h3 {color: white;text-align:left}
-                p {color: white;text-align:left}
-                li {color: white;text-align:left}
-                table {color:white;text;}
-                header {color: white;text}
-                h1 {font-family: Helvetica;font-size: 30px;}
-                h2 {font-family: Helvetica;font-size: 25px;}
-                h3 {font-family: Helvetica;font-size: 18px;}
-                li {font-family: Helvetica;font-size: 15px;}
-                table {font-family: Helvetica;font-size: 20px;}
-                p {font-family: Helvetica;font-size: 15px;}
-                header {font-family: Helvetica;font-size: 13px;}
+               body {
+                   margin: 0px;
+               }
+               
+               
+               .parent {
+                   background-color: rgb(63, 61, 61);
+                   height: 100px;
+                   width: calc(100% - 20px);
+                   margin: 10px;
+                   padding: 20px;
+               }
+
+               .child  {
+                   height: 30px;
+                   width: 30px;
+                   margin: 0 %;
+                 }
+
+               a:hover {
+                   color:skyblue;
+                }
+
+               .text{
+                   color:rgba(155, 121, 128, 0.904); 
+                text-align: center; font-size: 18px;
+                }
+
+               
+                body {
+                    background-color: rgba(155, 121, 128, 0.904);
+                }
+
+                h1 {
+                    color: white;text-align: center;
+                }
+
+                h2, h3, p, li {
+                    color: white;text-align:left;
+                }
+
+                table {
+                    color:white;
+                }
+
+                header {
+                    color: white;
+                }
+
+                h1 {
+                    font-family: Helvetica;
+                    font-size: 30px;
+                    text-align: center;
+                }
+
+                h2 {
+                    font-family: Helvetica;
+                    font-size: 25px;
+                }
+
+                h3 {
+                    font-family: Helvetica;
+                    font-size: 18px;
+                }
+
+                li {
+                    font-family: Helvetica;font-size: 15px;
+                }
+
+                table {
+                    font-family: Helvetica;font-size: 20px;
+                }
+
+                p {
+                    font-family: Helvetica;font-size: 15px;
+                }
+
+                header {
+                    font-family: Helvetica;font-size: 13px;
+                }
 
 a{
-    color:white;
-
+    color:rgb(77, 77, 77);
 }
-.julia a {background-color: white;}
 
-header a {background-color; text-decoration: none;}
+.julia a {
+    background-color: white;
+}
+
+header a {
+    background-color; text-decoration: none;
+}
