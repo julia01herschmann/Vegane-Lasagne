@@ -1,16 +1,3 @@
-    h2, h3, h4, h5, h6, p, ul, ol, header, div {
-        font-family: Helvetica;
-    }
-
-    h1 {
-        font-family: Quantify;
-    }
-    
-    
-    * {
-      box-sizing: border-box;
-    }
-    
     body {
       margin: 0;
     }
@@ -28,7 +15,7 @@
       background-color: rgba(1, 7, 31, 0.795);
     }
     
-  
+
     .topnav a {
       float: left;
       display: block;
@@ -48,7 +35,7 @@
     .column {
       float: left;
       width: 33.33%;
-      padding: 15px;
+      padding: 30px;
     }
     
  
@@ -63,37 +50,71 @@
       width: 33.33%;
     }
 
+
     .column.middle {
-  width: 60%;
-}
+    width: 55%;
+    }
 
 
-    @media screen and (max-width:600px) {
-        .column {
-          width: 100%;
-        }
-      }
+    .footer {
+    padding: 30px;
+    text-align: center;
+    background: rgba(1, 7, 31, 0.795);
+    margin-top: 30px;
+    }
+
+
+    h2, h3, h4, h5, h6, p, ul, ol, header, div {
+    font-family: Helvetica;
+    }
+
+
+    h1 {
+    font-family: Quantify;
+    }
+
+
+    h3 {
+    color: rgb(255, 255, 255);
+    }
 
 
     h1, h4 {
-        animation: textwelle 4s;
+    animation: textwelle 4s;
+    }
+
+
+    @keyframes textwelle {
+      0% {
+        transform: scale(0.1);
+        opacity: 0;
       }
-      
-      @keyframes textwelle {
-        0% {
-          transform: scale(0.1);
-          opacity: 0;
-        }
-      }
+    }
+
 
     h1 {
-        font-size: 65px;
+    font-size: 65px;
     }
+
+
+    h2 {
+    font-size: 23px;
+    }
+
 
     h4 {
       font-size: 20px;
     }
 
-    h2 {
-        font-size: 23px;
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    
+    @media screen and (max-width:600px) {
+      .column {
+        width: 100%;
+      }
     }
