@@ -5,14 +5,14 @@
     
     .header {
       background-color: #f1f1f1;
-      padding: 20px;
       text-align: center;
+      
     }
     
     
     .topnav {
       overflow: hidden;
-      background-color: rgba(1, 7, 31, 0.795);
+      background-color: rgba(87, 63, 109, 0.795);
     }
     
 
@@ -59,18 +59,18 @@
     .footer {
     padding: 30px;
     text-align: center;
-    background: rgba(1, 7, 31, 0.795);
+    background: rgba(87, 63, 109, 0.795);
     margin-top: 30px;
     }
 
 
     h2, h3, h4, h5, h6, p, ul, ol, header, div {
-    font-family: Helvetica;
+      font-family: 'Roboto', sans-serif;
     }
 
 
     h1 {
-    font-family: Quantify;
+      font-family: 'Black Ops One';
     }
 
 
@@ -94,6 +94,8 @@
 
     h1 {
     font-size: 65px;
+    margin-top: 9%;
+    color: white;
     }
 
 
@@ -104,6 +106,9 @@
 
     h4 {
       font-size: 20px;
+      margin-top: -1.5%;
+      color: white;
+     
     }
 
 
@@ -112,9 +117,13 @@
     }
 
 
-    
-    @media screen and (max-width:600px) {
-      .column {
-        width: 100%;
-      }
+    .hero {
+      background-image: url(https://wallpaperaccess.com/full/5927938.gif);
+      background-position: center;
+      height: 600px;
+      margin-top: -2%;
+     
     }
+
+    
+    

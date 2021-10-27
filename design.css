@@ -98,14 +98,16 @@ h1 {
   }
 
 
-h1 {
-    font-family: Quantify;
-    }
+  h1 {
+    font-family: 'Black Ops One';
+  }
 
 
-h2, h3, h4, h5, h6, p, ul, ol, header, div {
-    font-family: Helvetica;
-    }
+
+  h2, h3, h4, h5, h6, p, ul, ol, header, div {
+    font-family: 'Roboto', sans-serif;
+  }
+    
 
 
 @media screen and (max-width: 800px) {
