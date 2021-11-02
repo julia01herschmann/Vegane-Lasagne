@@ -12,7 +12,7 @@
     
     .topnav {
       overflow: hidden;
-      background-color: rgba(87, 63, 109, 0.795);
+      background-color: rgb(20, 20, 20);
     }
     
 
@@ -31,6 +31,19 @@
       color: black;
     }
     
+
+    .topnavfooter {
+      float: center;
+      display:block;
+      color: #f2f2f2;
+      text-align: center;
+    }
+
+
+    .topnavfooter a:hover {
+      background-color: #2bceab;
+      color: black;
+    }
    
     .column {
       float: left;
@@ -59,12 +72,16 @@
     .footer {
     padding: 30px;
     text-align: center;
-    background: rgba(87, 63, 109, 0.795);
+    background: rgb(20, 20, 20);
     margin-top: 30px;
     }
 
+    .footertext {
+      color: white;
+    }
 
-    h2, h3, h4, h5, h6, p, ul, ol, header, div {
+
+    h2, h3, h4, h5, h6, p, ul, ol, header, div, th, td, table {
       font-family: 'Roboto', sans-serif;
     }
 
@@ -111,6 +128,19 @@
      
     }
 
+    h6 {
+      text-align: center;
+      color: #2bceab;
+      font-size: 20px;
+    }
+
+
+    h5 {
+      text-align: center;
+      color: #2bceab;
+      font-size: 24px;
+    }
+
 
     * {
       box-sizing: border-box;
@@ -122,8 +152,104 @@
       background-position: center;
       height: 600px;
       margin-top: -2%;
-     
     }
 
-    
-    
+
+    .typewriter {
+      font-family: 'Space Mono', monospace;
+      text-align: center;
+      color: rgba(51, 51, 51, 0.774);
+      font-size: 24px;
+
+    }
+
+    .controller {
+      text-align: center;
+    }
+
+
+    hr.class-1 {
+      border-top: 10px solid #2bceab80;
+  }
+
+
+  .slider {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+
+  .image-container {
+    width: 1500px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+
+
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+
+
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+
+
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+
+
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+
+
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+
+
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #2bceab;
+  }
+   
+
+  table {
+    border-collapse:collapse;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  td, th {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    font-family: 'Roboto', sans-serif;
+  }
