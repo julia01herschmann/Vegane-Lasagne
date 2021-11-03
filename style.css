@@ -15,6 +15,10 @@
       background-color: rgb(20, 20, 20);
     }
     
+    .row {
+      display: flex;
+      justify-content: center;
+    }
 
     .topnav a {
       float: left;
@@ -52,20 +56,16 @@
     }
     
  
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
 
 
     .column.side {
-      width: 33.33%;
+      width: 15%;
+
     }
 
 
     .column.middle {
-    width: 55%;
+    width: 32%;
     }
 
 
@@ -111,7 +111,7 @@
 
     h1 {
     font-size: 65px;
-    margin-top: 9%;
+    margin-top: 18%;
     color: white;
     }
 
@@ -122,7 +122,7 @@
 
 
     h4 {
-      font-size: 20px;
+      font-size: 30px;
       margin-top: -1.5%;
       color: white;
      
@@ -150,7 +150,7 @@
     .hero {
       background-image: url(https://wallpaperaccess.com/full/5927938.gif);
       background-position: center;
-      height: 600px;
+      height: 950px;
       margin-top: -2%;
     }
 
@@ -160,7 +160,6 @@
       text-align: center;
       color: rgba(51, 51, 51, 0.774);
       font-size: 24px;
-
     }
 
     .controller {
@@ -168,7 +167,7 @@
     }
 
 
-    hr.class-1 {
+    .class-1 {
       border-top: 10px solid #2bceab80;
   }
 
@@ -176,7 +175,6 @@
   .slider {
     width: 500px;
     height: 300px;
-    background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
