@@ -28,10 +28,10 @@ body {
 
 
 .topnav a {
-  float: left;
-  display: block
+  float: center;
+  display: block;
   text-align: center;
-  padding: 4px 1230px;
+  padding: 4px 20px;
   text-decoration: none;
   color: rgb(20, 20, 20)
 }

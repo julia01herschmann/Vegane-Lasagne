@@ -52,7 +52,7 @@
     .column {
       float: left;
       width: 33.33%;
-      padding: 30px;
+      padding: 70px;
     }
     
  
@@ -251,3 +251,6 @@
     background-color: #dddddd;
     font-family: 'Roboto', sans-serif;
   }
+
+
+  
