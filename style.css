@@ -265,13 +265,12 @@
   }
   
   .parallax {
-    /* The image used */
+    
     background-image: url('https://cdn2.unrealengine.com/ue5-1920x1080-3c562c7e55dd.jpg?resize=1&w=1920');
   
-    /* Full height */
     height: 100%; 
   
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -281,7 +280,7 @@
 
 
   @media only screen and (max-width:800px) {
-    /* For tablets: */
+
     .column {
       width: 80%;
       padding: 0;
@@ -290,10 +289,14 @@
       width: 100%;
     }
   }
+ 
+
   @media only screen and (max-width:500px) {
-    /* For mobile phones: */
+ 
     .column, .column.middle, .row , .column.side {
+      width: 300px;
+      flex-flow: column;
+
     }
   }
-
 
