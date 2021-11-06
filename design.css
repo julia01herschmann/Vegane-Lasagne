@@ -172,3 +172,38 @@ h1 {
     color: rgb(20, 20, 20);
     font-size: 21px;
   }
+
+
+  @media screen and (max-width: 600px)
+
+  div {
+    flex-flow: column;
+  }
+
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .column {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .row, .leftcolumn, .rightcolumn {
+      width: 100%;
+    }
+  }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
