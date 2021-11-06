@@ -173,26 +173,31 @@
 
 
   .slider {
-    width: 500px;
-    height: 300px;
+    width: 90vw;
+    height: calc(90vw / 16 * 9);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     text-align: center;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
   }
 
 
   .image-container {
-    width: 1500px;
     background-color: rgb(255, 255, 255);
-    height: 300px;
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
     -o-transition: left 2s;
     transition: left 2s;
+    display: flex;
+    flex-flow:row;
+    flex-wrap: nowrap;
   }
 
 
@@ -201,27 +206,30 @@
     margin: 0px;
     padding: 0px;
     position: relative;
+    width: 90vw;
+    height: auto;
   }
 
 
   #slide-1:target ~ .image-container {
-    left: 0px;
+    left: 0vw;
   }
 
 
   #slide-2:target ~ .image-container {
-    left: -500px;
+    left: -90vw;
   }
 
 
   #slide-3:target ~ .image-container {
-    left: -1000px;
+    left: -180vw;
   }
 
 
   .buttons {
-    position: relative;
-    top: -20px;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 25px);
   }
 
 
@@ -271,6 +279,7 @@
   }
 
 
+
   @media only screen and (max-width:800px) {
     /* For tablets: */
     .column {
@@ -284,7 +293,6 @@
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .column, .column.middle, .row , .column.side {
-      width: 150%;
     }
   }
 
